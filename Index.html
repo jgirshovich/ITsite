@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root {
+            --primary-navy: #002D62;
+            --accent-gold: #C59831;
+            --bg-gray: #f4f7f6;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #fff; margin: 0; padding: 20px; color: #333; }
+        .hero { text-align: center; padding: 40px 20px; background: var(--primary-navy); color: white; border-radius: 8px; margin-bottom: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .card { padding: 20px; border: 1px solid #ddd; border-radius: 8px; text-align: center; transition: 0.3s; }
+        .card:hover { border-color: var(--accent-gold); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        .btn { display: inline-block; padding: 10px 20px; background: var(--accent-gold); color: white; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 15px; }
+        h1 { margin: 0; }
+        p { color: #666; }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <h1>St. Anne IT Support</h1>
+    <p>How can we help you today?</p>
+</div>
+
+<div class="grid">
+    <div class="card">
+        <h3>Submit a Ticket</h3>
+        <p>Report an issue with your device or account.</p>
+        <a href="#" class="btn">New Ticket</a>
+    </div>
+    <div class="card">
+        <h3>Knowledge Base</h3>
+        <p>Browse how-to guides and tutorials.</p>
+        <a href="#" class="btn">View Guides</a>
+    </div>
+    <div class="card">
+        <h3>Equipment Request</h3>
+        <p>Need a projector or loaner laptop?</p>
+        <a href="#" class="btn">Request Gear</a>
+    </div>
+</div>
+
+</body>
+</html>
